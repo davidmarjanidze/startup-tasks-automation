@@ -1,6 +1,6 @@
 {
   "name": "startup-tasks-automation",
-  "version": "2.0.2",
+  "version": "2.0.1",
   "description": "Run a list of commands with delays when your computer starts, for example open Chrome, Slack or a project in VS Code.",
   "type": "module",
   "main": "./dist/index.cjs",
