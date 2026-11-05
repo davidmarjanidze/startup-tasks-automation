@@ -1,3 +1,8 @@
+# 2.0.1 (2026-11-05)
+
+- Update the author name
+- Clean up the README
+
 # 2.0.0 (2026-11-04)
 
 - Replace the `StartupTasksAutomation` class with a `runTasks` function that returns a promise
