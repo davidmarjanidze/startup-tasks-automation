@@ -91,23 +91,6 @@ it when you log in:
   `~/Library/LaunchAgents`.
 - **Linux**: add a `.desktop` file to `~/.config/autostart`.
 
-## Upgrading from 1.x
-
-```js
-// 1.x
-new StartupTasksAutomation([
-  { executable: 'slack', delay: 5_000 }
-]).initiateBootSequence()
-
-// 2.x
-await runTasks([{ command: 'slack', delay: 5_000 }])
-```
-
-- The `StartupTasksAutomation` class was replaced by the `runTasks` function.
-- `executable` was renamed to `command`, and `delay` is now optional.
-- The script no longer calls `process.exit()` 10 seconds after the last task.
-  It exits on its own, and the apps keep running.
-
 ## License
 
 ISC
