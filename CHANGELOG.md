@@ -1,3 +1,7 @@
+# 2.0.2 (2026-11-05)
+
+- No code changes, republish of 2.0.1
+
 # 2.0.1 (2026-11-05)
 
 - Update the author name
